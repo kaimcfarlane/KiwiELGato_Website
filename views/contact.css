@@ -1,0 +1,687 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+/* This is the font style for the navigation menu*/
+
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=EB+Garamond&family=Noto+Sans&family=Press+Start+2P&family=Roboto:ital@1&family=Rubik&family=Sigmar+One&display=swap");
+
+@media (min-width: 945px) {
+  a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: black;
+    margin: 0;
+  }
+
+  /*This is the style for the background of the navigation menu*/
+  #expandbtn {
+    display: none;
+  }
+
+  #backgroundnavigationmenu {
+    height: 100px;
+    background-image: linear-gradient(
+      to right,
+      rgb(45, 45, 248),
+      rgb(20, 243, 20)
+    );
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(
+      -45deg,
+      rgb(45, 45, 248),
+      rgb(4, 189, 35),
+      #23a6d5,
+      #23d5ab
+    );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /*This is the style for the items on our nav*/
+  .navigationitems {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .item {
+    transition: all 0.3s ease 0s;
+  }
+
+  .item:hover {
+    color: black;
+  }
+
+  .item {
+    display: inline-flex;
+    padding-left: 30px;
+  }
+
+  /* This sets up how every piece of ocntent in the header interacts 
+with each other, so every css before this set up how the content
+inthe other divs interected*/
+  .navigationlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: antiquewhite;
+    transition: 0.15s ease-in-out;
+  }
+
+  .logo:hover {
+    transform: scale(1.15);
+  }
+
+  .text {
+    color: aliceblue;
+    font-size: 200px;
+  }
+
+  /* This is the banner that goes inbetween SM and Nav*/
+
+  .background {
+    background: linear-gradient(
+      -45deg,
+      rgb(20, 20, 197),
+      rgb(34, 231, 67),
+      #088be2,
+      #000000
+    );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+.editbanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.contentPageImg {
+  width: 100%;
+}
+
+.educationelements {
+  color: aliceblue;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Rubik", sans-serif;
+  padding-top: 10px;
+}
+
+.forum {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  border-width: 5px;
+}
+
+/* This is the container for the boxes and social media*/
+.container {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(
+    to right,
+    rgb(45, 45, 248),
+    rgb(20, 243, 20)
+  );
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+/* Style fo the buttons links to SM */
+
+/* Style fo the buttons links to SM */
+.container {
+  width: 100%;
+  height: 150px;
+  /* background-image: linear-gradient(
+    to right,
+    rgb(45, 45, 248),
+    rgb(20, 243, 20)
+  ); */
+  background: linear-gradient(
+    -45deg,
+    rgb(45, 45, 248),
+    rgb(4, 189, 35),
+    #23a6d5,
+    #23d5ab
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 0 0.55em rgb(0 0 0 / 55%);
+}
+/* Style fo the buttons links to SM */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:900i");
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ctaY {
+  display: flex;
+  padding: 10px 45px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: white;
+  background: #eb4b4b;
+  /* background-image: linear-gradient(
+    to right,
+    rgb(250, 68, 108),
+    rgb(243, 20, 105)
+  ); */
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+}
+
+.ctaI {
+  display: flex;
+  padding: 10px 45px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: white;
+  background: #ec4af1;
+  /* background-image: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  ); */
+  background-image: linear-gradient(
+    -45deg,
+    rgb(30 4 252),
+    rgb(158 124 255),
+    rgb(35, 166, 213),
+    rgb(35, 213, 171)
+  );
+  animation: gradient 15s ease infinite;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+}
+
+.ctaT {
+  display: flex;
+  padding: 10px 45px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: white;
+  /* background: #4043ec; */
+  background-image: linear-gradient(
+    45deg,
+    #25f4ee 0%,
+    #000000 33%,
+    #fe2c55 66%,
+    #ffffff 100%
+  );
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+}
+
+.ctaY:focus {
+  outline: none;
+}
+
+.ctaY:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #fbc638;
+}
+
+.ctaY span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.ctaY:hover span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+.ctaI:focus {
+  outline: none;
+}
+
+.ctaI:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #fbc638;
+}
+
+.ctaI span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.ctaI:hover span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+.ctaT:focus {
+  outline: none;
+}
+
+.ctaT:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #fbc638;
+}
+
+.ctaT span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.ctaT:hover span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+span {
+  transform: skewX(15deg);
+}
+
+span:nth-child(2) {
+  width: 20px;
+  margin-left: 30px;
+  position: relative;
+  top: 12%;
+}
+
+/**************SVG****************/
+
+path.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+path.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.ctaY:hover path.three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.ctaY:hover path.one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.ctaY:hover path.two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+.ctaI:hover path.three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.ctaI:hover path.one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.ctaI:hover path.two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+.ctaT:hover path.three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.ctaT:hover path.one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.ctaT:hover path.two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+  50% {
+    fill: #fbc638;
+  }
+  100% {
+    fill: white;
+  }
+}
+
+.SMlogo {
+  font-family: "Monserrat", sans-serif;
+  background-image: linear-gradient(rgb(45, 45, 248), rgb(20, 243, 20));
+  cursor: pointer;
+  width: 200px;
+  padding: 14px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  border-color: black;
+  color: white;
+  transition-duration: 0.5s;
+  box-shadow: 2px 4px 0px 0px;
+}
+
+/* The hover color for links for SM */
+.SMlogo:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(45, 45, 248),
+    rgb(20, 243, 20)
+  );
+  color: black;
+}
+
+/* This for all media under a desktop screen size */
+@media (max-width: 945px) {
+  a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: black;
+    margin: 0;
+  }
+
+  /*This is the style for the background of the navigation menu*/
+  #backgroundnavigationmenu {
+    height: 100px;
+    /* background-image: linear-gradient(
+      to right,
+      rgb(45, 45, 248),
+      rgb(20, 243, 20)
+    ); */
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(
+      -45deg,
+      rgb(45, 45, 248),
+      rgb(4, 189, 35),
+      #23a6d5,
+      #23d5ab
+    );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 1;
+  }
+
+  /*This is the style for the items on our nav*/
+  #expandbtn {
+    font-family: "Monserrat", sans-serif;
+    background-image: linear-gradient(rgb(45, 45, 248), rgb(20, 243, 20));
+    cursor: pointer;
+    width: 200px;
+    padding: 14px 40px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    border-color: black;
+    color: white;
+    transition-duration: 0.5s;
+    box-shadow: 2px 4px 0px 0px;
+  }
+
+  #expandbtn:hover {
+    background-image: linear-gradient(
+      to right,
+      rgb(45, 45, 248),
+      rgb(20, 243, 20)
+    );
+    color: black;
+  }
+
+  .navigationitems {
+    color: white;
+    display: grid;
+    grid-template-columns: auto;
+    cursor: pointer;
+    background-color: rgb(42, 179, 133);
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    justify-content: center;
+  }
+
+  .navigationitems.active {
+    background-color: rgb(41, 39, 39);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .item {
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+    display: table;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    color: aliceblue;
+  }
+
+  .item:hover {
+    transition: all 0.4s ease-out;
+    color: black;
+    background-color: rgb(79, 232, 133);
+    border-radius: 8px;
+    border-style: dotted;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+  }
+
+  #mobile-menu.active {
+    /* blah blah */
+  }
+
+  .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-toggle:hover {
+    cursor: pointer;
+  }
+
+  /* This sets up how every piece of ocntent in the header interacts 
+    with each other, so every css before this set up how the content
+    in the other divs interected*/
+  .navigationlogo {
+    position: relative;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: antiquewhite;
+    transition: 0.15s ease-in-out;
+  }
+
+  .logo:hover {
+    transform: scale(1.15);
+  }
+
+  .text {
+    color: aliceblue;
+    font-size: 200px;
+  }
+
+  /* This is the banner that goes inbetween SM and Nav*/
+  .editbanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    overflow: hidden;
+  }
+
+  .background {
+    background: linear-gradient(
+      -45deg,
+      rgb(20, 20, 197),
+      rgb(34, 231, 67),
+      #088be2,
+      #000000
+    );
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* This is the container for the boxes and social media*/
+  .container {
+    width: 100%;
+    height: 710px;
+    /* background-image: linear-gradient(
+      to right,
+      rgb(45, 45, 248),
+      rgb(20, 243, 20)
+    ); */
+    background: linear-gradient(
+      -45deg,
+      rgb(45, 45, 248),
+      rgb(4, 189, 35),
+      #23a6d5,
+      #23d5ab
+    );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+  }
+  /* Style fo the buttons links to SM */
+  .SMlogo {
+    font-family: "Monserrat", sans-serif;
+    background-image: linear-gradient(rgb(45, 45, 248), rgb(20, 243, 20));
+    cursor: pointer;
+    width: 200px;
+    padding: 14px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    border-color: black;
+    color: white;
+    transition-duration: 0.5s;
+    box-shadow: 2px 4px 0px 0px;
+  }
+
+  /* The hover color for links for SM */
+  .SMlogo:hover {
+    background-image: linear-gradient(
+      to right,
+      rgb(45, 45, 248),
+      rgb(20, 243, 20)
+    );
+    color: black;
+  }
+}
+
+@media (max-width: 450px) {
+  .educationelements {
+    font-size: 60px;
+  }
+}
