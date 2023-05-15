@@ -1,21 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-/* This is the font style for the navigation menu*/
-
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:ital@1&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-/* This is the font style for the navigation menu*/
-
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&family=Roboto:ital@1&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&family=Roboto:ital@1&family=Sigmar+One&display=swap");
 
 @media (min-width: 945px) {
@@ -32,19 +22,12 @@
     margin: 0;
   }
 
-  /*This is the style for the background of the navigation menu*/
-
   #expandbtn {
     display: none;
   }
 
   #backgroundnavigationmenu {
     height: 100px;
-    /* background-image: linear-gradient(
-      to right,
-      rgb(45, 45, 248),
-      rgb(20, 243, 20)
-    ); */
     background-image: linear-gradient(
       -45deg,
       rgb(54 32 244),
@@ -59,7 +42,6 @@
     z-index: 1;
   }
 
-  /*This is the style for the items on our nav*/
   .navigationitems {
     color: white;
     text-align: center;
@@ -79,9 +61,6 @@
     padding-left: 30px;
   }
 
-  /* This sets up how every piece of ocntent in the header interacts 
-with each other, so every css before this set up how the content
-inthe other divs interected*/
   .navigationlogo {
     display: flex;
     justify-content: center;
@@ -106,7 +85,6 @@ inthe other divs interected*/
     font-size: 200px;
   }
 
-  /* This is the banner that goes inbetween SM and Nav*/
   .editbanner {
     display: flex;
     align-items: center;
@@ -122,8 +100,6 @@ inthe other divs interected*/
   .educationcontent {
     justify-content: space-around;
   }
-
-  /* Put any css for the main content here*/
 
   .educationheader {
     color: white;
@@ -185,7 +161,7 @@ inthe other divs interected*/
 
   .collegeimg {
     transition-duration: 0.5s;
-    /* filter: grayscale(0.8); */
+   
   }
 
   .collegeimg:hover {
@@ -373,7 +349,7 @@ inthe other divs interected*/
     background-position: 0% 50%;
   }
 }
-/* This is the container for the boxes and social media*/
+
 .container {
   width: 100%;
   height: 150px;
@@ -382,7 +358,6 @@ inthe other divs interected*/
     rgb(45, 45, 248),
     rgb(20, 243, 20)
   );
-
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -390,17 +365,10 @@ inthe other divs interected*/
   align-items: center;
   align-content: center;
 }
-/* Style fo the buttons links to SM */
 
-/* Style fo the buttons links to SM */
 .container {
   width: 100%;
   height: 150px;
-  /* background-image: linear-gradient(
-    to right,
-    rgb(45, 45, 248),
-    rgb(20, 243, 20)
-  ); */
   background-image: linear-gradient(
     -45deg,
     rgb(54 32 244),
@@ -418,13 +386,8 @@ inthe other divs interected*/
   align-content: center;
   box-shadow: 0 0 0.55em rgb(0 0 0 / 55%);
 }
-/* Style fo the buttons links to SM */
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:900i");
-
-/* * {
-  box-sizing: border-box;
-} */
 
 .wrapper {
   display: flex;
@@ -439,11 +402,6 @@ inthe other divs interected*/
   font-size: 40px;
   color: white;
   background: #eb4b4b;
-  /* background-image: linear-gradient(
-    to right,
-    rgb(250, 68, 108),
-    rgb(243, 20, 105)
-  ); */
   transition: 1s;
   box-shadow: 6px 6px 0 black;
   transform: skewX(-15deg);
@@ -457,14 +415,6 @@ inthe other divs interected*/
   font-size: 40px;
   color: white;
   background: #ec4af1;
-  /* background-image: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  ); */
   background-image: linear-gradient(
     -45deg,
     rgb(30 4 252),
@@ -485,7 +435,6 @@ inthe other divs interected*/
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   color: white;
-  /* background: #4043ec; */
   background-image: linear-gradient(
     45deg,
     #25f4ee 0%,
@@ -566,8 +515,6 @@ span:nth-child(2) {
   top: 12%;
 }
 
-/**************SVG****************/
-
 path.one {
   transition: 0.4s;
   transform: translateX(-60%);
@@ -620,8 +567,6 @@ path.two {
   animation: color_anim 1s infinite 0.4s;
 }
 
-/* SVG animations */
-
 @keyframes color_anim {
   0% {
     fill: white;
@@ -649,7 +594,6 @@ path.two {
   box-shadow: 2px 4px 0px 0px;
 }
 
-/* The hover color for links for SM */
 .SMlogo:hover {
   background-image: linear-gradient(
     to right,
@@ -659,7 +603,6 @@ path.two {
   color: black;
 }
 
-/* This for all media under a desktop screen size */
 @media (max-width: 945px) {
   a {
     font-family: "Montserrat", sans-serif;
@@ -674,14 +617,9 @@ path.two {
     margin: 0;
   }
 
-  /*This is the style for the background of the navigation menu*/
   #backgroundnavigationmenu {
     height: 100px;
-    /* background-image: linear-gradient(
-      to right,
-      rgb(45, 45, 248),
-      rgb(20, 243, 20)
-    ); */
+   
     position: fixed;
     width: 100%;
     background: linear-gradient(
@@ -696,7 +634,6 @@ path.two {
     z-index: 1;
   }
 
-  /*This is the style for the items on our nav*/
   #expandbtn {
     font-family: "Monserrat", sans-serif;
     background-image: linear-gradient(rgb(45, 45, 248), rgb(20, 243, 20));
@@ -768,10 +705,6 @@ path.two {
     right: 5%;
   }
 
-  #mobile-menu.active {
-    /* blah blah */
-  }
-
   .bar {
     display: block;
     cursor: pointer;
@@ -780,10 +713,7 @@ path.two {
   .menu-toggle:hover {
     cursor: pointer;
   }
-
-  /* This sets up how every piece of ocntent in the header interacts 
-    with each other, so every css before this set up how the content
-    in the other divs interected*/
+ 
   .navigationlogo {
     position: relative;
     width: 100%;
@@ -807,7 +737,6 @@ path.two {
     font-size: 200px;
   }
 
-  /* This is the banner that goes inbetween SM and Nav*/
   .banner {
     display: flex;
     align-items: center;
@@ -818,8 +747,6 @@ path.two {
   .educationcontent {
     justify-content: space-around;
   }
-
-  /* Put any css for the main content here*/
 
   .educationheader {
     color: white;
@@ -869,8 +796,6 @@ path.two {
   .educationcontent {
     justify-content: space-around;
   }
-
-  /* Put any css for the main content here*/
 
   .educationheader {
     color: white;
@@ -979,15 +904,11 @@ path.two {
     background-color: black;
   }
 
-  /* This is the container for the boxes and social media*/
+ 
   .container {
     width: 100%;
     height: 710px;
-    /* background-image: linear-gradient(
-      to right,
-      rgb(45, 45, 248),
-      rgb(20, 243, 20)
-    ); */
+   
     background: linear-gradient(
       -45deg,
       rgb(45, 45, 248),
@@ -1004,7 +925,7 @@ path.two {
     align-items: center;
     align-content: center;
   }
-  /* Style fo the buttons links to SM */
+ 
   .SMlogo {
     font-family: "Monserrat", sans-serif;
     background-image: linear-gradient(rgb(45, 45, 248), rgb(20, 243, 20));
@@ -1020,7 +941,7 @@ path.two {
     box-shadow: 2px 4px 0px 0px;
   }
 
-  /* The hover color for links for SM */
+ 
   .SMlogo:hover {
     background-image: linear-gradient(
       to right,

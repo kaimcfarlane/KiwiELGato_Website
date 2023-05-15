@@ -1,6 +1,8 @@
+//Instance Variables
 var coll = document.querySelectorAll('[id=expButton]');
 var i;
 
+//Handles Opening Kiwi Youtube Videos Upon Button Click
 for (i = 0; i < 13; i++) {
     if(i == 0) {
         coll[i].addEventListener("click", function() {
